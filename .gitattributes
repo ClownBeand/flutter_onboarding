@@ -1,6 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-# Ignore
+
 *.apk
 build/
 *.apk filter=lfs diff=lfs merge=lfs -text
